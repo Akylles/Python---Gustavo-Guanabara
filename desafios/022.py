@@ -1,0 +1,15 @@
+nome = input("Digite seu nome completo: ")
+
+maiusculo = nome.upper()
+minusculo = nome.lower()
+listaPalavras = nome.split()
+stringSemEspacos = ''.join(listaPalavras)
+qtdeLetras = len(stringSemEspacos)
+letrasPrimeiroNome = len(listaPalavras[0])
+
+print("NOME COMPLETO: " + nome)
+print('MAIÚSCULO: ' + maiusculo)
+print('MINÚSCULO: ' + minusculo)
+print('SEM ESPAÇOS : ' + stringSemEspacos)
+print('QUANTIDADE DE LETRAS: {}'.format(qtdeLetras))
+print('QUANTIDADE DE LETRAS NO PRIMEIRO NOME: {}'.format(letrasPrimeiroNome))
